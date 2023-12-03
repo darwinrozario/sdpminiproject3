@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+td {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #111;
+}
+    </style>
+    <title>Welcome To RMD College </title>
+    <link rel="icon" href="img/Rmd logo.jpeg">
+</head>
+<body>
+    <center>
+        <h1>College Admission Form 📝</h1>
+        <h2>Welcome to the RMD College Admission Management System</h2>
+        <hr>
+    </center>
+    <center>
+        <h3>College Admission Application Form</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>Full Name:</td> <td><input type="text" placeholder="Enter Your Name" required></td>
+                </tr>
+                <tr>
+                    <td>Father Name:</td> <td><input type="text" placeholder="Enter Your Father Name"></td>
+                </tr>
+                <tr>
+                    <td>Mother Name:</td> <td><input type="text" placeholder="Enter Your Mother Name"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td> <td><input type="number" placeholder="Enter Your Phone Number"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth:</td> <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>12th Cut-off(%):</td> <td><input type="text" placeholder="Enter Your Marks(%)"></td>
+                </tr>
+                <tr>
+                    <td>Select a Department:</td>
+                    <td>
+                        <select>
+                            <option>CSE</option>
+                            <option>AIDS</option>
+                            <option>AIML</option>
+                            <option>CSBS</option>
+                            <option>ECE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>State:</td> <td><input type="text" placeholder="Enter Your State"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td> <td><textarea name="textarea"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="Gender">Male
+                        <input type="radio" name="Gender">Female
+                        <input type="radio" name="Gender">Other
+                    </td> 
+                </tr>
+
+                <tr>
+                    <td>Email:</td> <td><input type="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td>Alternate Email:</td> <td><input type="email" placeholder="Enter Your Alt Email"></td>
+                </tr>
+                <tr>
+                    <td>Alternate Phone Number:</td> <td><input type="number" placeholder="Enter Your Alt Phone Number"></td>
+                </tr>
+                <tr>
+                    <td>Upload Your Photo:</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+             </table>
+             <p>
+                <td><input type="reset"></td>
+                <td><input type="submit"></td>
+            </p>
+        </form>       
+    </center>
+    <hr>
+    <center>
+        <p>
+            <center>
+            <a href="https://rmd.ac.in/index.html">Home</a>|
+            <a href="https://rmd.ac.in/aboutus/rmkgroup.html">About Us</a>|
+            <a href="https://rmd.ac.in/academics/Courses_Offered.html">Course Offered</a>|
+            <a href="https://rmd.ac.in/contact.html">Contact</a>|
+            <a href="https://www.youtube.com/c/RMDEnggCollege">Youtube</a>|
+            <a href="https://www.facebook.com/rmdecprincipal">Facebook</a>|
+            <a href="https://www.instagram.com/rmdecprincipal/">Instagram</a>|
+            <a href="https://twitter.com/rmdecprincipal">Twitter</a>|
+            <a href="https://www.linkedin.com/in/rmdecprincipal">Linkedin</a>
+            </center>   
+        </p>
+    </center>
+
+
+</body>
+</html>
